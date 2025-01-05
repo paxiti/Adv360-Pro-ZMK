@@ -1,3 +1,27 @@
+macro_macos_redo: macro_macos_redo{
+compatible = "zmk,behavior-macro";
+label = "macro_macos_redo";
+#binding-cells = <0>;
+bindings = <&sk LCMD>, <&kp Y>;
+};
+macro_win_redo: macro_win_redo{
+compatible = "zmk,behavior-macro";
+label = "macro_win_redo";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp Y>;
+};
+macro_macos_color: macro_macos_color{
+compatible = "zmk,behavior-macro";
+label = "macro_macos_color";
+#binding-cells = <0>;
+bindings = <&sk LCMD>, <&kp B>;
+};
+macro_win_color: macro_win_color{
+compatible = "zmk,behavior-macro";
+label = "macro_win_color";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp B>;
+};
 macro_macos_undo: macro_macos_undo{
 compatible = "zmk,behavior-macro";
 label = "macro_macos_undo";
