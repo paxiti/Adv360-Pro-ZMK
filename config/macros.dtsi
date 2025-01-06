@@ -1,3 +1,15 @@
+macro_macos_select: macro_macos_select{
+compatible = "zmk,behavior-macro";
+label = "macro_macos_select";
+#binding-cells = <0>;
+bindings = <&kp LCMD>, <&kp LEFT_SHIFT>;
+};
+macro_win_select: macro_win_select{
+compatible = "zmk,behavior-macro";
+label = "macro_win_select";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp LEFT_SHIFT>;
+};
 macro_macos_dellayer: macro_macos_dellayer{
 compatible = "zmk,behavior-macro";
 label = "macro_macos_dellayer";
@@ -14,13 +26,13 @@ macro_macos_newlayer: macro_macos_newlayer{
 compatible = "zmk,behavior-macro";
 label = "macro_macos_newlayer";
 #binding-cells = <0>;
-bindings = <&sk LCMD>, <&sk LEFT_SHIFT>, <&kp N>;
+bindings = <&sk LCMD>, <&kp N>;
 };
 macro_win_newlayer: macro_win_newlayer{
 compatible = "zmk,behavior-macro";
 label = "macro_win_newlayer";
 #binding-cells = <0>;
-bindings = <&sk LCTRL>, <&sk LEFT_SHIFT>, <&kp N>;
+bindings = <&sk LCTRL>, <&kp N>;
 };
 macro_macos_merge: macro_macos_merge{
 compatible = "zmk,behavior-macro";
